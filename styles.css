@@ -1,9 +1,40 @@
+:root{
+	--dark-color: #000;
+	--white-color: #fff;
+	--purple-color: #9933cc;
+	--pink-color: #FF6666;
+	--orange-color: #FF6633;
+	--red-color: #FF3333;
+	--yellow-color: #FFFF33;
+	--limeGreen-color: #99cc33;
+	--green-color: #009966;
+	--turquoise-color: #009999;
+  }
+
+
 * {
 	padding: 0;
 	margin: 0;
 	font-family: "Bebas Neue", cursive;
+	color: var(--white-color);
 }
 
+/* --- Header --- */
 .logo {
 	width: 25%;
+}
+
+/* --- Main --- */
+
+
+/* --- Footer --- */
+.footer {
+	background-color: var(--dark-color);
+	position: fixed;
+	bottom: 0;
+}
+
+.footer .nav-link a{
+	color: var(--white-color);
+	text-decoration: none;
 }
