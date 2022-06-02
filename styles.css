@@ -30,8 +30,7 @@
 /* --- Footer --- */
 .footer {
 	background-color: var(--dark-color);
-	position: fixed;
-	bottom: 0;
+	max-height: 150px;
 }
 
 .footer .nav-link a{
