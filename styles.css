@@ -1,16 +1,17 @@
-:root{
+:root {
 	--dark-color: #000;
 	--white-color: #fff;
-	--purple-color: #9933cc;
-	--pink-color: #FF6666;
-	--orange-color: #FF6633;
-	--red-color: #FF3333;
-	--yellow-color: #FFFF33;
+	--purple-color: #8c20ba;
+	--pink-color: #ff517c;
+	--orange-color: #ff6633;
+	--red-color: #ff3333;
+	--yellow-color: #ffff33;
 	--limeGreen-color: #99cc33;
 	--green-color: #009966;
 	--turquoise-color: #009999;
-  }
-
+	--gradient-color-right: linear-gradient(to right, var(--purple-color), var(--pink-color));
+	--gradient-color-bot: linear-gradient(180deg, var(--purple-color), var(--pink-color));
+}
 
 * {
 	padding: 0;
@@ -26,7 +27,6 @@
 
 /* --- Main --- */
 
-
 /* --- Footer --- */
 .footer {
 	background-color: var(--dark-color);
@@ -38,7 +38,67 @@
 	max-width: 125px;
 }
 
-.footer .nav-link a{
+.footer .nav-link a {
 	color: var(--white-color);
 	text-decoration: none;
+}
+
+.barra-h {
+	margin: 0;
+	height: 2px;
+	width: 5%;
+	color: white;
+	background-image: var(--gradient-color-right);
+	opacity: 1;
+}
+
+.barra-v {
+	transform: rotate(90deg) translate(25px);
+	margin: 0;
+	height: 2px;
+	width: 4rem;
+	color: white;
+	background-image: var(--gradient-color-right);
+	opacity: 1;
+}
+
+.btn-default {
+	background-image: var(--gradient-color-right);
+	color: var(--white-color);
+	border: none;
+	border-radius: 25px;
+	padding: 8px 25px;
+	margin: 1rem;
+}
+
+.btn-menu {
+	border: none;
+}
+
+.btn-menu i {
+	color: var(--purple-color);
+	font-size: 1.5rem;
+}
+
+.title {
+	color: var(--dark-color);
+}
+
+.gradient-bot {
+	background-image: linear-gradient(var(--purple-color), var(--pink-color));
+	background-clip: text;
+	-webkit-background-clip: text;
+	color: transparent;
+}
+
+.logo-u {
+	width: 40%;
+	object-fit: contain;
+}
+
+.arrow {
+	width: 25px;
+	height: 25px;
+	border-radius: 50px;
+	background-image: linear-gradient(var(--purple-color), var(--pink-color));
 }

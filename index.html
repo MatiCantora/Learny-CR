@@ -1,118 +1,183 @@
 <!DOCTYPE html>
 <html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<head>
-	<meta charset="UTF-8" />
-	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="shortcut icon" href="./img/icons/icon-v-r.png" type="image/x-icon" />
 
-	<link rel="shortcut icon" href="./img/icons/icon-v-r.png" type="image/x-icon" />
+		<!-- SEO -->
+		<meta name="title" content="" />
+		<meta name="description" content="" />
+		<meta name="keywords" content="" />
+		<meta name="author" content="Learny CR" />
+		<title>Learny CR</title>
 
-	<!-- SEO -->
-	<meta name="title" content="" />
-	<meta name="description" content="" />
-	<meta name="keywords" content="" />
-	<meta name="author" content="Learny CR" />
-	<title>Learny CR</title>
+		<!-- Link Bootstrap -->
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+			crossorigin="anonymous"
+		/>
 
-	<!-- Link Bootstrap -->
-	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
-		integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous" />
+		<!-- Fonts -->
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet" />
 
-	<!-- Fonts -->
-	<link rel="preconnect" href="https://fonts.googleapis.com" />
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-	<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet" />
+		<!-- Link CSS -->
+		<link rel="stylesheet" href="./styles.css" />
+	</head>
 
-	<!-- Link CSS -->
-	<link rel="stylesheet" href="./styles.css" />
-</head>
+	<body>
+		<header>
+			<nav class="navbar navbar-expand-lg">
+				<div class="container-fluid">
+					<div class="logo">
+						<a class="navbar-brand d-flex" href="./index.html">
+							<img
+								src="./img/icons/icon-v-r.png"
+								alt="logo"
+								width="30"
+								height="30"
+								class="d-inline-block align-text-top img-fluid"
+							/>
+							<span style="color: var(--purple-color)">Learny</span>
+						</a>
+					</div>
+					<button
+						class="navbar-toggler btn-menu"
+						type="button"
+						data-bs-toggle="collapse"
+						data-bs-target="#navbarNav"
+						aria-controls="navbarNav"
+						aria-expanded="false"
+						aria-label="Toggle navigation"
+					>
+						<span><i class="fa fa-bars" aria-hidden="true"></i></span>
+					</button>
 
-<body>
-	<header>
-		<nav class="navbar navbar-expand-lg bg-success">
-			<div class="container-fluid">
-				<div class="logo">
-					<a class="navbar-brand d-flex" href="./index.html">
-						<img src="./img/icons/icon-v-r.png" alt="logo" width="30" height="30"
-							class="d-inline-block align-text-top img-fluid" />
-						<span>Learny</span>
-					</a>
+					<div class="collapse navbar-collapse d-md-flex justify-content-md-between" id="navbarNav">
+						<ul class="navbar-nav d-flex align-items-center">
+							<li class="nav-item">
+								<a class="nav-link active" aria-current="page" href="#">Home</a>
+							</li>
+							<hr class="barra-h" />
+							<li class="nav-item">
+								<a class="nav-link active" href="#">Sobre Learny</a>
+							</li>
+							<hr class="barra-h" />
+							<li class="nav-item">
+								<a class="nav-link active" href="#">Servicios</a>
+							</li>
+							<hr class="barra-h" />
+							<li class="nav-item">
+								<a class="nav-link active" href="#">Contenidos</a>
+							</li>
+							<hr class="barra-h" />
+							<li class="nav-item">
+								<a class="nav-link active" href="#">Proceso de Adminsión</a>
+							</li>
+							<hr class="barra-h" />
+							<li class="nav-item">
+								<a class="nav-link active" href="#">Preguntas Frequentes</a>
+							</li>
+							<hr class="barra-h" />
+						</ul>
+						<button type="button" class="btn btn-default" href="#">Escribime</button>
+					</div>
 				</div>
-				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-					aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-					<span class="navbar-toggler-icon"></span>
-				</button>
+			</nav>
+		</header>
+		<main>
+			<div class="container">
+				<div class="d-flex flex-column align-items-center">
+					<h1 class="title">TU ADMISIÓN A LA U EMPIEZA ACÁ</h1>
+					<div>
+						<h3 class="title">¡COMENZÁ TU CURSO PARA EL EXAMEN DE ADMISIÓN!</h3>
+						<p class="title">ÚNICO CURSO BRINDADO POR MEJOR NOTA DE LA ADMISIÓN A LA UCR 2014</p>
+					</div>
+					<div class="d-flex flex-row justify-content-between">
+						<div class="d-flex flex-column align-items-center">
+							<p class="title gradient-bot">900+</p>
+							<p class="title">ESTUDIANTES</p>
+						</div>
+						<hr class="barra-v" />
+						<div class="d-flex flex-column align-items-center">
+							<p class="title gradient-bot">95%</p>
+							<p class="title">INGRESAN A SU CARRERA</p>
+						</div>
+						<hr class="barra-v" />
+						<div class="d-flex flex-column align-items-center">
+							<p class="title gradient-bot">99%</p>
+							<p class="title">NOS RECOMIENDAN</p>
+						</div>
+					</div>
 
-				<div class="collapse navbar-collapse d-md-flex justify-content-md-between" id="navbarNav">
-					<ul class="navbar-nav">
-						<li class="nav-item">
-							<a class="nav-link active" aria-current="page" href="#">Home</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="#">Sobre Learny</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="#">Servicios</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="#">Contenidos</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="#">Proceso de Adminsión</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="#">Preguntas Frequentes</a>
-						</li>
-					</ul>
-					<button type="button" class="btn btn-outline-dark" href="#">Escribime</button>
+					<button type="button" class="btn btn-default">INSCRIBITE ACA</button>
+
+					<div class="d-flex flex-row justify-content-between">
+						<img class="logo-u" src="./img/logos/u-tec.png" alt="" />
+						<div class="logo-u">
+							<img src="./img/logos/ucr logo 2.png" alt="" />
+							<img src="./img/logos/ucr logo 1.png" alt="" />
+						</div>
+						<div class="logo-u">
+							<img src="./img/logos/una logo completo 2.png" alt="" />
+							<img src="./img/logos/una logo completo 1.png" alt="" />
+						</div>
+					</div>
+
+					<span class="arrow"><i class="fa-solid fa-arrow-down"></i></span>
 				</div>
 			</div>
-		</nav>
-	</header>
-	<main></main>
-	<footer class="row footer py-3 lh-1">
-		<div class="footer_logo col-2 mx-5 my-auto">
-			<img class="img-fluid" src="./img/logos/logo-b.PNG" alt="Logo en blanco">
-		</div>
-		<nav class="footer_contactos col-2">
-			<h5>CONTACTO</h5>
-			<ul class="navbar-nav">
-				<li class="nav-link"><a href="#">USUARIO</a></li>
-				<li class="nav-link"><a href="#">@USUARIO</a></li>
-				<li class="nav-link"><a href="#">NUMERO</a></li>
-			</ul>
-		</nav>
-		<nav class="footer_servicios col-4">
-			<h5>SERVICIOS</h5>
-			<div class="row">
-				<div class="col-5">
-					<ul class="navbar-nav">
-						<li class="nav-link"><a href="#">EN VIVO</a></li>
-						<li class="nav-link"><a href="#">PREGRABADO</a></li>
-					</ul>
-				</div>
-				<div class="col-6">
-					<ul class="navbar-nav align-self-start">
-						<li class="nav-link"><a href="#">CURSOS EXCLUSIVOS</a></li>
-						<li class="nav-link"><a href="#">TUTORÍAS INDIVIDUALES</a></li>
-					</ul>
-				</div>
+		</main>
+		<footer class="row footer py-3 lh-1">
+			<div class="footer_logo col-2 mx-5 my-auto">
+				<img class="img-fluid" src="./img/logos/logo-b.PNG" alt="Logo en blanco" />
 			</div>
-		</nav>
-		<nav class="footer_sobreLearny col-2">
-			<h5>SOBRE LEARNY</h5>
-			<ul class="navbar-nav">
-				<li class="nav-link"><a href="#">PREGUNTAS FRECUENTES</a></li>
-				<li class="nav-link"><a href="#">TU MENTORA</a></li>
-			</ul>
-		</nav>
-	</footer>
-	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
-		integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
-		crossorigin="anonymous"></script>
-	<!-- Link JS -->
-	<script src="./main.js"></script>
-</body>
-
+			<nav class="footer_contactos col-2">
+				<h5>CONTACTO</h5>
+				<ul class="navbar-nav">
+					<li class="nav-link"><a href="#">USUARIO</a></li>
+					<li class="nav-link"><a href="#">@USUARIO</a></li>
+					<li class="nav-link"><a href="#">NUMERO</a></li>
+				</ul>
+			</nav>
+			<nav class="footer_servicios col-4">
+				<h5>SERVICIOS</h5>
+				<div class="row">
+					<div class="col-5">
+						<ul class="navbar-nav">
+							<li class="nav-link"><a href="#">EN VIVO</a></li>
+							<li class="nav-link"><a href="#">PREGRABADO</a></li>
+						</ul>
+					</div>
+					<div class="col-6">
+						<ul class="navbar-nav align-self-start">
+							<li class="nav-link"><a href="#">CURSOS EXCLUSIVOS</a></li>
+							<li class="nav-link"><a href="#">TUTORÍAS INDIVIDUALES</a></li>
+						</ul>
+					</div>
+				</div>
+			</nav>
+			<nav class="footer_sobreLearny col-2">
+				<h5>SOBRE LEARNY</h5>
+				<ul class="navbar-nav">
+					<li class="nav-link"><a href="#">PREGUNTAS FRECUENTES</a></li>
+					<li class="nav-link"><a href="#">TU MENTORA</a></li>
+				</ul>
+			</nav>
+		</footer>
+		<script
+			src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+			integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+			crossorigin="anonymous"
+		></script>
+		<!-- Link JS -->
+		<script src="./main.js"></script>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+	</body>
 </html>
