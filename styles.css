@@ -46,7 +46,7 @@
 .barra-h {
 	margin: 0;
 	height: 2px;
-	width: 5%;
+	width: 20px;
 	color: white;
 	background-image: var(--gradient-color-right);
 	opacity: 1;
