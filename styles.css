@@ -52,6 +52,10 @@
 	opacity: 1;
 }
 
+.barra-h-active {
+	width: 40px;
+}
+
 .barra-v {
 	transform: rotate(90deg) translate(25px);
 	margin: 0;
