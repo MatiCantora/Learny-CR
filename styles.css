@@ -52,10 +52,6 @@
 	opacity: 1;
 }
 
-.barra-h-active {
-	width: 40px;
-}
-
 .barra-v {
 	transform: rotate(90deg) translate(25px);
 	margin: 0;
@@ -88,6 +84,16 @@
 	color: var(--dark-color);
 }
 
+.title-h1 {
+	color: var(--dark-color);
+	font-size: 3rem;
+}
+
+.title-h3 {
+	color: var(--dark-color);
+	font-size: 1.5rem;
+}
+
 .gradient-bot {
 	background-image: linear-gradient(var(--purple-color), var(--pink-color));
 	background-clip: text;
@@ -100,9 +106,74 @@
 	object-fit: contain;
 }
 
-.arrow {
+/* .arrow {
+	display: inline;
 	width: 25px;
 	height: 25px;
+	padding: 10px;
+	margin: 15px;
 	border-radius: 50px;
 	background-image: linear-gradient(var(--purple-color), var(--pink-color));
+	position: relative;
+	left: 40%;
+	top: 20px; 
+} */
+
+.comenza {
+	margin-left: 10px;
 }
+
+.barra-v-2 {
+	width: 2px;
+	height: 85px;
+	color: white;
+	background-image: var(--gradient-color-right);
+	opacity: 1;
+	position: absolute;
+}
+
+.p-w {
+	font-size: 0.9rem;
+}
+
+.unis {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 15px;
+	border: 1px solid var(--purple-color);
+	border-radius: 25px;
+}
+
+.unis-logo {
+	margin: 10px;
+	width: 90%;
+}
+
+.barra-h-2 {
+	margin: 5px;
+	height: 2px;
+	width: 10rem;
+	color: white;
+	background-image: var(--gradient-color-right);
+	opacity: 1;
+}
+
+.btn-curso {
+	background-color: #fff;
+	border: 1px solid var(--purple-color);
+	margin: 1px;
+	width: 15rem;
+	font-size: large;
+}
+
+.btn-grupo {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+/* Para los backgrounds */
+/* filter: grayscale(80%); */
