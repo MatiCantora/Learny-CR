@@ -1,5 +1,6 @@
 :root {
 	--dark-color: #000;
+	--grey-color: #8C8C8C;
 	--white-color: #fff;
 	--purple-color: #8c20ba;
 	--pink-color: #ff517c;
@@ -94,6 +95,10 @@
 	font-size: 1.5rem;
 }
 
+.textGrey {
+	color: var(--grey-color)
+}
+
 .gradient-bot {
 	background-image: linear-gradient(var(--purple-color), var(--pink-color));
 	background-clip: text;
@@ -123,6 +128,7 @@ esta clase no esta en el codigo
 
 .comenza {
 	margin-left: 10px;
+	text-indent: 150px;
 }
 
 .barra-v-2 {
