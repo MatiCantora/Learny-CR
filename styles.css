@@ -101,10 +101,12 @@
 	color: transparent;
 }
 
+/* 
+esta clase no esta en el codigo
 .logo-u {
 	width: 40%;
 	object-fit: contain;
-}
+} */
 
 /* .arrow {
 	display: inline;
@@ -137,13 +139,9 @@
 }
 
 .unis {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
 	padding: 15px;
 	border: 1px solid var(--purple-color);
-	border-radius: 25px;
+	border-radius: 5px;
 }
 
 .unis-logo {
