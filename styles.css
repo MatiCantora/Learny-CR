@@ -69,7 +69,8 @@
 	border: none;
 	border-radius: 25px;
 	padding: 8px 25px;
-	margin: 1rem;
+	box-shadow: 0 10px 10px rgba(0, 0, 0, .2);
+	/* margin: 1rem; se aplica margenes en el btn */
 }
 
 .btn-menu {
@@ -133,7 +134,7 @@ esta clase no esta en el codigo
 
 .barra-v-2 {
 	width: 2px;
-	height: 85px;
+	height: 65px;
 	color: white;
 	background-image: var(--gradient-color-right);
 	opacity: 1;
