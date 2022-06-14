@@ -57,7 +57,7 @@
 	transform: rotate(90deg) translate(25px);
 	margin: 0;
 	height: 2px;
-	width: 4rem;
+	width: 40px;
 	color: white;
 	background-image: var(--gradient-color-right);
 	opacity: 1;
@@ -93,7 +93,11 @@
 
 .title-h3 {
 	color: var(--dark-color);
-	font-size: 1.5rem;
+	font-size: 1.25rem;
+}
+
+.textValue {
+	font-size: 0.80rem;
 }
 
 .textGrey {
