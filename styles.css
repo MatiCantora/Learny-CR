@@ -131,8 +131,15 @@
 .p-w {
 	font-size: 0.9rem;
 }
+.metricaValoraciones {
+	margin-bottom: 100px;
+}
 
 .unis {
+	background: var(--white-color);
+	z-index: 1;
+	position: relative;
+	top: -60px;
 	padding: 15px;
 	border-radius: 5px;
 	margin-bottom: 30px;
