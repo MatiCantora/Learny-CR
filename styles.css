@@ -29,6 +29,7 @@
 
 .onbording {
 	background-image: url(./img/backgrounds/Onboarding.png);
+	background-size: cover;
 }
 
 
