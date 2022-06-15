@@ -27,6 +27,11 @@
 }
 /* --- Main --- */
 
+.onbording {
+	background-image: url(./img/backgrounds/Onboarding.png);
+}
+
+
 /* --- Footer --- */
 .footer {
 	background-color: var(--dark-color);
