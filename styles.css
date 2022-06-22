@@ -50,7 +50,6 @@
 	min-height: 470px;
 }
 
-
 /* --- Footer --- */
 .footer {
 	background-color: var(--dark-color);
@@ -310,11 +309,15 @@
 	.title-h1 {
 		font-size: 2rem;
 	}
+
+	.value {
+		color: var(--purple-color);
+	}
 	.onbordingtext {
 		font-size: 1rem;
 	}
 
-	.onbordingsubtext{
+	.onbordingsubtext {
 		font-size: 0.8rem;
 	}
 
@@ -322,10 +325,6 @@
 	.onbordingsubtext,
 	.onbordingtext {
 		color: #000;
-	}
-
-	.value{
-		color: var(--purple-color);
 	}
 
 	.onbordingLogo {
@@ -339,26 +338,25 @@
 	.unis {
 		position: static;
 	}
-	
+
 	.comunidad {
 		background-image: url(./img/backgrounds/conocealaComunidadMobile.png);
 		background-repeat: no-repeat;
 		min-height: 630px;
 	}
-	
+
 	.conocimientos {
 		background-image: url(./img/backgrounds/poneAPruebaMobile.png);
 		background-repeat: no-repeat;
 		min-height: 470px;
 	}
-	
+
 	.preguntas {
 		background-image: url(./img/backgrounds/preguntasFrecuentesMobile.png);
 		background-repeat: no-repeat;
 		min-height: 630px;
 		padding-top: 185px;
 	}
-	
 }
 
 .card {
@@ -370,6 +368,19 @@
 	width: 22rem;
 }
 
+.card-sm {
+	border-radius: 0.5rem;
+	box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+	background-color: white;
+	padding: 1.5rem;
+	margin-bottom: 1rem;
+	width: 20rem;
+	height: 15rem;
+}
+
+.card-sm p {
+	font-size: 0.8rem;
+}
 .card-img {
 	height: 4rem;
 	width: 4rem;
@@ -458,7 +469,7 @@
 	display: block;
 }
 
-.btn:hover {
+.btn-preguntas:hover {
 	color: #000;
 	background-color: #fff;
 	border: 1px solid var(--purple-color);
