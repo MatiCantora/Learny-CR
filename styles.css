@@ -28,9 +28,28 @@
 /* --- Main --- */
 
 .onbording {
-	background-image: url(./img/backgrounds/Onboarding.png);
+	background-image: url(./img/backgrounds/Onboardingdesk.png);
 	background-size: cover;
 }
+
+.comunidad {
+	background-image: url(./img/backgrounds/comunidadLearnyDesk.png);
+	background-repeat: no-repeat;
+	min-height: 470px;
+}
+
+.conocimientos {
+	background-image: url(./img/backgrounds/PoneAPruebadesk.png);
+	background-repeat: no-repeat;
+	min-height: 470px;
+}
+
+.preguntas {
+	background-image: url(./img/backgrounds/PreguntasFrecuentesdesk.png);
+	background-repeat: no-repeat;
+	min-height: 470px;
+}
+
 
 /* --- Footer --- */
 .footer {
