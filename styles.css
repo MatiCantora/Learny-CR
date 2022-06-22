@@ -278,6 +278,7 @@
 @media (max-width: 375px) {
 	.comenza {
 		margin-left: 1rem;
+		margin-top: 90px;
 	}
 
 	.barra-v-2 {
@@ -299,6 +300,65 @@
 	.arrow-right {
 		display: none;
 	}
+
+	.onbording {
+		background-image: url(./img/backgrounds/onboardingMobile.png);
+		background-size: contain;
+		background-repeat: no-repeat;
+	}
+
+	.title-h1 {
+		font-size: 2rem;
+	}
+	.onbordingtext {
+		font-size: 1rem;
+	}
+
+	.onbordingsubtext{
+		font-size: 0.8rem;
+	}
+
+	.textValue,
+	.onbordingsubtext,
+	.onbordingtext {
+		color: #000;
+	}
+
+	.value{
+		color: var(--purple-color);
+	}
+
+	.onbordingLogo {
+		display: none;
+	}
+
+	.metricaValoraciones {
+		margin-bottom: 0px;
+	}
+
+	.unis {
+		position: static;
+	}
+	
+	.comunidad {
+		background-image: url(./img/backgrounds/conocealaComunidadMobile.png);
+		background-repeat: no-repeat;
+		min-height: 630px;
+	}
+	
+	.conocimientos {
+		background-image: url(./img/backgrounds/poneAPruebaMobile.png);
+		background-repeat: no-repeat;
+		min-height: 470px;
+	}
+	
+	.preguntas {
+		background-image: url(./img/backgrounds/preguntasFrecuentesMobile.png);
+		background-repeat: no-repeat;
+		min-height: 630px;
+		padding-top: 185px;
+	}
+	
 }
 
 .card {
