@@ -21,6 +21,12 @@
 	color: var(--white-color);
 }
 
+.row > * {
+	--bs-gutter-x: 0 !important;
+	margin-right: 0px !important;
+	margin-left: 0px !important;
+}
+
 /* --- Header --- */
 .logo {
 	width: 25%;
@@ -500,7 +506,37 @@
 		linear-gradient(to bottom, var(--purple-color) 0%, var(--pink-color) 100%);
 }
 
+.borde-purple {
+	padding-left: 1rem;
+	border-left: 0.5mm solid var(--purple-color);
+}
+
+.borde-pink {
+	padding-left: 1rem;
+	border-left: 0.5mm solid var(--pink-color);
+}
+
 .borde {
 	padding-left: 1rem;
 	border-left: 0.5mm solid var(--purple-color);
+}
+
+.btn-test-group {
+	background: var(--gradient-color-right);
+}
+
+.btn-test {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	height: 55px;
+}
+
+.borde-quizz {
+	border: 0.5mm solid var(--purple-color);
+}
+
+.borde-test {
+	border-left: 1mm solid var(--white-color);
 }
