@@ -6,7 +6,7 @@
 	--pink-color: #ff517c;
 	--orange-color: #ff6633;
 	--red-color: #ff3333;
-	--yellow-color: #ffff33;
+	--yellow-color: #fde82b;
 	--limeGreen-color: #99cc33;
 	--green-color: #009966;
 	--turquoise-color: #009999;
@@ -56,6 +56,19 @@
 	min-height: 470px;
 }
 
+.mentora {
+	background-image: url(./img/backgrounds/karlaHome.png);
+	background-repeat: no-repeat;
+	min-height: 470px;
+	width: 100%;
+}
+
+.karla {
+	background-image: url(./img/backgrounds/karlaSeccion.png);
+	background-repeat: no-repeat;
+	min-height: 470px;
+	width: 100%;
+}
 /* --- Footer --- */
 .footer {
 	background-color: var(--dark-color);
@@ -305,7 +318,7 @@
 	background-color: white;
 	padding: 1.5rem;
 	margin-bottom: 1rem;
-	width: 22rem;
+	width: 25rem;
 }
 
 .card-sm {
@@ -314,7 +327,7 @@
 	background-color: white;
 	padding: 1.5rem;
 	margin-bottom: 1rem;
-	width: 20rem;
+	width: 22rem;
 	height: 15rem;
 }
 
@@ -474,7 +487,6 @@
 .borde-test {
 	border-left: 1mm solid var(--white-color);
 }
-
 
 @media (max-width: 375px) {
 	.comenza {

@@ -1,5 +1,5 @@
 function resultado() {
-	let p1, p2, p3, p4, p5, p6, nota
+	let p1, p2, p3, p4, p5, p6, p7, p8, p9, p10, nota
 
 	if (document.getElementById("p12").checked == true) {
 		p1 = 1
@@ -55,8 +55,45 @@ function resultado() {
 		p6 = 0
 	}
 
-	nota = p1 + p2 + p3 + p4 + p5 + p6
-	document.getElementById("resultado").innerHTML = "Aciertos: " + nota
+	if (document.getElementById("p71").checked == true) {
+		p7 = 1
+	}
+	if (p7 == 1) {
+		document.querySelectorAll(".pregunta7")[0].style.color = "#00FF00"
+	} else {
+		p7 = 0
+	}
+
+	if (document.getElementById("p83").checked == true) {
+		p8 = 1
+	}
+	if (p8 == 1) {
+		document.querySelectorAll(".pregunta8")[2].style.color = "#00FF00"
+	} else {
+		p8 = 0
+	}
+
+	if (document.getElementById("p93").checked == true) {
+		p9 = 1
+	}
+	if (p9 == 1) {
+		document.querySelectorAll(".pregunta9")[2].style.color = "#00FF00"
+	} else {
+		p9 = 0
+	}
+
+	if (document.getElementById("p103").checked == true) {
+		p10 = 1
+	}
+	if (p10 == 1) {
+		document.querySelectorAll(".pregunta10")[2].style.color = "#00FF00"
+	} else {
+		p10 = 0
+	}
+
+	nota = p1 + p2 + p3 + p4 + p5 + p6 + p7 + p8 + p9 + p10
+	document.getElementById("resultado").innerHTML = "Tu Resultado:"
+	document.getElementById("puntos").innerHTML = nota * 10 + "%"
 	rs = confirm("Desea Continuar?")
 	if (rs == false) {
 		document.forms[0].reset()
