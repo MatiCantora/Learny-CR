@@ -69,15 +69,17 @@
 	min-height: 470px;
 	width: 100%;
 }
+
+.contenido_header {
+	background-image: url(./img/backgrounds/Contenidosdesk.png);
+	background-repeat: no-repeat;
+	min-height: 370px;
+}
 /* --- Footer --- */
 .footer {
 	background-color: var(--dark-color);
 	max-height: 150px;
 	font-size: 0.8rem;
-}
-
-.footer .footer_logo {
-	max-width: 125px;
 }
 
 .footer .nav-link a {
