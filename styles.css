@@ -573,4 +573,35 @@
 		min-height: 630px;
 		padding-top: 185px;
 	}
+
+	.contenido_header {
+		background-image: url(./img/backgrounds/contenidosMobile.png);
+		background-size: cover;
+		background-repeat: no-repeat;
+	}
+
+	.servicios_header {
+		background-image: url(./img/backgrounds/serviciosMobile.png);
+		background-size: cover;
+		background-repeat: no-repeat;
+	}
+
+	.servicios_cursoExclusivoMobile {
+		background-image: url(./img/backgrounds/cursoExclusivoMobile.png);
+		background-repeat: no-repeat;
+		padding-top: 211px;
+		min-height: 354px;
+	}
+	.servicios_cursoLitleMobile {
+		background-image: url(./img/backgrounds/cursoLiteMobile.png);
+		background-repeat: no-repeat;
+		padding-top: 211px;
+		min-height: 354px;
+	}
+	.servicios_pregrabadoMobil {
+		background-image: url(./img/backgrounds/PregrabadoMobile.png);
+		background-repeat: no-repeat;
+		padding-top: 211px;
+		min-height: 354px;
+	}
 }
