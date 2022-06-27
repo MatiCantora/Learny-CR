@@ -490,7 +490,17 @@
 	border-left: 1mm solid var(--white-color);
 }
 
-@media (max-width: 375px) {
+@media (max-width: 992px) {
+	.botonMobile {
+		display: flex;
+		justify-content: center;
+	}
+}
+
+@media (max-width: 380px) {
+	.tituloPrincipal {
+		text-align: center;
+	}
 	.comenza {
 		margin-left: 1rem;
 		margin-top: 90px;
@@ -521,6 +531,24 @@
 		background-size: cover;
 		background-repeat: no-repeat;
 	}
+
+	.mentora {
+		background-image: url(./img/backgrounds/karlaMobile.png);
+		background-size: cover;
+		background-repeat: no-repeat;
+	}
+
+	.karlaMobile {
+		margin-top: 8rem;
+	}
+
+	.serviciosMobile {
+		margin-top: 3rem;
+	}
+
+	/* .titleKarla {
+		color: #fff;
+	} */
 
 	.title-h1 {
 		font-size: 2rem;
