@@ -71,10 +71,15 @@
 }
 
 .contenido_header {
-	background-image: url(./img/backgrounds/Contenidosdesk.png);
-	background-repeat: no-repeat;
-	min-height: 370px;
+	width: 100%;
+	z-index: -1;
+	position: absolute;
 }
+
+.contenido_headertxt{
+	min-height: 400px;
+}
+
 /* --- Footer --- */
 .footer {
 	background-color: var(--dark-color);
@@ -496,6 +501,13 @@
 		justify-content: center;
 	}
 }
+
+.contenido_background {
+	background-image: url(./img/backgrounds/fondoContenidosDESKTOP.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
 
 @media (max-width: 380px) {
 	.tituloPrincipal {
