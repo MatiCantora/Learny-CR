@@ -92,11 +92,45 @@ function resultado() {
 	}
 
 	nota = p1 + p2 + p3 + p4 + p5 + p6 + p7 + p8 + p9 + p10
-	document.getElementById("resultado").innerHTML = "Tu Resultado:"
-	document.getElementById("puntos").innerHTML = nota * 10 + "%"
+
+	// document.getElementById("resultado").innerHTML = "Tu Resultado:"
+	// document.getElementById("puntos").innerHTML = nota * 10 + "%"
+
 	rs = confirm("Desea Continuar?")
 	if (rs == false) {
 		document.forms[0].reset()
 		location.reload()
+	}
+
+	if (nota >= 9) {
+		Swal.fire({
+			title: "Tu nota fue:",
+			html: `<p class="nota"> ${
+				nota * 10
+			}% </p>  <br /> Felicitaciones, estás listo/a para el exámen. <br /> Continuá tu preparación con nuestros cursos <br /> <br /> <a href="./servicios.html">Ver Cursos</a>      `,
+			showCloseButton: true,
+			allowOutsideClick: true,
+			buttonsStyling: false,
+		})
+	} else if (nota >= 1 && nota < 9) {
+		Swal.fire({
+			title: "Tu nota fue:",
+			html: `<p class="nota"> ${
+				nota * 10
+			}% </p>  <br /> Te recomendamos ver nuestros cursos disponibles para mejorar tu calificación`,
+			footer: '<a href="./servicios.html">Ver Cursos</a>',
+			showCloseButton: true,
+			allowOutsideClick: true,
+			buttonsStyling: false,
+		})
+	} else {
+		Swal.fire({
+			icon: "error",
+			title: "Error",
+			html: `No respondiste ninguna pregunta`,
+			showCloseButton: true,
+			allowOutsideClick: true,
+			buttonsStyling: false,
+		})
 	}
 }

@@ -26,6 +26,7 @@
 		<link rel="preconnect" href="https://fonts.googleapis.com" />
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 		<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet" />
+		<link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet" />
 
 		<!-- Icons -->
 		<link
@@ -152,17 +153,91 @@
 					</h1>
 					<p class="title textGrey">¡Conocé todos nuestros cursos virtuales!</p>
 				</div>
-				<div class="btn-grupo mb-5">
-					<button type="button" class="title btn-curso">CURSO LITE</button>
-					<button type="button" class="title btn-curso">PREGRABADO</button>
-					<button type="button" class="title btn-curso">
-						CURSO <br />
-						EXCLUSIVO
-					</button>
-					<button type="button" class="title btn-curso">
-						TUTORIAS <br />
-						INDIVIDUALES
-					</button>
+
+				<div class="botones m-5">
+					<div class="btn-group">
+						<button type="button" class="btn btn-curso dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+							Curso Lite
+						</button>
+						<ul class="dropdown-menu text-center">
+							<li><span class="dropdown-item-text raleway">Modalidad sincrónica</span></li>
+							<hr />
+							<li><span class="dropdown-item-text raleway">20 horas de contenido</span></li>
+							<hr />
+							<li><span class="dropdown-item-text raleway">10 sesiones en vivo</span></li>
+							<hr />
+							<li><span class="dropdown-item-text raleway">Te prepara para los dos exámenes</span></li>
+							<hr />
+							<li><span class="dropdown-item-text raleway">Más de 500 ejercicios</span></li>
+							<hr />
+							<li><span class="dropdown-item-text raleway">1 simulacro</span></li>
+							<hr />
+							<button class="btn btn-serv">Quiero Unirme</button>
+						</ul>
+					</div>
+					<div class="btn-group">
+						<button type="button" class="btn btn-curso dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+							Pregrabado
+						</button>
+						<ul class="dropdown-menu text-center">
+							<li><span class="dropdown-item-text raleway">A tu propio ritmo y desde donde quieras</span></li>
+							<hr />
+							<li><span class="dropdown-item-text raleway">Videos cortos que maximizan tu atención</span></li>
+							<hr />
+							<li><span class="dropdown-item-text raleway">2 estudiaderos mensuales EN VIVO</span></li>
+							<hr />
+							<li><span class="dropdown-item-text raleway">Te prepara para los dos exámenes</span></li>
+							<hr />
+							<li><span class="dropdown-item-text raleway">Más de 500 ejercicios</span></li>
+							<hr />
+							<li><span class="dropdown-item-text raleway">4 simulacros</span></li>
+							<hr />
+							<button class="btn btn-serv">Quiero Unirme</button>
+						</ul>
+					</div>
+					<div class="btn-group">
+						<button type="button" class="btn btn-curso dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+							Curso <br />
+							Exclusivo
+						</button>
+						<ul class="dropdown-menu text-center">
+							<li><span class="dropdown-item-text raleway">Grupos pequeños - atención personalizada</span></li>
+							<hr />
+							<li><span class="dropdown-item-text raleway">10 sesiones en vivo y 2 estudiaderos mensuales</span></li>
+							<hr />
+							<li>
+								<span class="dropdown-item-text raleway">Podés volver a ver el contenido grabado cuando quieras</span>
+							</li>
+							<hr />
+							<li><span class="dropdown-item-text raleway">Te prepara para los dos exámenes</span></li>
+							<hr />
+							<li><span class="dropdown-item-text raleway">Más de 500 ejercicios y soluciones</span></li>
+							<hr />
+							<li><span class="dropdown-item-text raleway">2 simulacros</span></li>
+							<hr />
+							<button class="btn btn-serv">Quiero Unirme</button>
+						</ul>
+					</div>
+					<div class="btn-group">
+						<button type="button" class="btn btn-curso dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+							Tutorías <br />
+							Individuales
+						</button>
+						<ul class="dropdown-menu text-center">
+							<li><span class="dropdown-item-text raleway">Agendá las horas que desees</span></li>
+							<hr />
+							<li>
+								<span class="dropdown-item-text raleway"
+									>100% personalizadas, adaptamos las tutorias a tus necesidades</span
+								>
+							</li>
+							<hr />
+							<li><span class="dropdown-item-text raleway">Abiertas al público</span></li>
+							<hr />
+
+							<button class="btn btn-serv">Escribime</button>
+						</ul>
+					</div>
 				</div>
 			</div>
 
@@ -174,7 +249,7 @@
 								¡Conocé a la comunidad <br />
 								Learny!
 							</h2>
-							<p class="col-12 title textGrey text-center p-w mb-5">
+							<p class="col-12 title title text-center p-w mb-5 raleway">
 								Te enseñamos estrategias de resolución para cada tipo de ejercicio.<br />
 								Armamos Grupos de apoyo con atención 24/7<br />
 								y Te apoyamos desde que te unís al curso hasta que empezás la U.<br />
@@ -194,8 +269,8 @@
 						<div class="col-md-6"></div>
 						<div class="col-md-6">
 							<h2 class="title title-h1 text-center textTeal">¡Poné a prueba tus conocimientos!</h2>
-							<p class="col-12 title textGrey text-center p-w mb-5">
-								te ofrecemos un test de 10 preguntas para evaluar cuánto sabés.
+							<p class="col-12 title title text-center p-w mb-5 raleway">
+								Te ofrecemos un test de 10 preguntas para evaluar cuánto sabés.
 							</p>
 							<div class="mt-3 mb-4 btn-inscribite">
 								<a href="./pages/cuestionario.html"
@@ -206,15 +281,17 @@
 					</div>
 				</div>
 
-				<div class="container mx-auto row">
+				<div class="container mx-auto row" id="mentora">
 					<div class="mentora d-flex align-items-center">
 						<div class="col-md-6 karlaMobile">
 							<h2 class="title title-h1 text-center textTeal">tu mentora</h2>
 							<h3 class="title title-h2 text-center titleKarla">Karla Peña Funes</h3>
-							<p class="col-12 title textGrey text-center p-w mb-5">
+							<p class="col-12 title text-center p-w mb-2 raleway">
 								Primer promedio de admisión (nota perfecta) para la UCR (2014-2015)<br />
 								Nota de admisión TEC: 732.<br />
 								Más de 7 años preparando estudiantes para los exámenes de admisión. <br />
+							</p>
+							<p class="col-12 textGrey text-center p-w mb-5 raleway">
 								Te enseñará todo lo que hizo para ser la mejor nota de la UCR. <br />
 								Ha preparado a más de 900 estudiantes.<br />
 								Experta en la creación de cursos virtuales.
@@ -224,6 +301,9 @@
 									><button type="button" class="btn btn-default py-2">Sobre Learny</button></a
 								>
 							</div>
+						</div>
+						<div class="col-md-6">
+							<img src="./img/backgrounds/Karla.png" alt="" class="img-karla-home" />
 						</div>
 					</div>
 				</div>
@@ -240,7 +320,7 @@
 					<div class="card-user d-flex">
 						<div class="mb-3">
 							<div class="mb-3">
-								<h3 class="title mb-0">Victor Nuñez</h3>
+								<h3 class="title mb-0">Alejando</h3>
 								<p class="title mb-0">UCR</p>
 								<h3 class="title mb-0">¡Buenisimo! 😃</h3>
 							</div>
@@ -249,9 +329,9 @@
 					<div class="card-text">
 						<div class="card-p">
 							<p class="title mb-0">
-								“El Curso me permitió prepararme desde una perspectiva del estudiante con la experiencia y no de un
-								profesor, lo cual me ayudó enormemente. Además, tenía la certeza de que iba a funcionar debido a que
-								ella obtuvo 800 en el examen…”
+								“Intenté rendir el examen de admisión en el año 2018, no llegando a la nota requerida. Para mi fortuna
+								encontré este curso y no solo logré cumplir mi meta de entrar a Medicina, sino que estuve entre las
+								mejores notas de admisión. ¡luchen por sus sueños porque SÍ se puede!”
 							</p>
 						</div>
 					</div>
@@ -259,7 +339,7 @@
 				<div class="card mb-0">
 					<div class="card-user d-flex">
 						<div class="mb-3">
-							<h3 class="title mb-0">Ariana Montero</h3>
+							<h3 class="title mb-0">Ana Cristina</h3>
 							<p class="title mb-0">TEC - UCR</p>
 							<h3 class="title mb-0">Aprendi mucho🎉</h3>
 						</div>
@@ -267,10 +347,9 @@
 					<div class="card-text">
 						<div class="card-p">
 							<p class="title mb-0">
-								¡El curso me gustó mucho! La dinámica me pareció muy útil, ya que siempre recibimos una explicación,
-								incluyendo ejemplos, y luego una serie de ejercicios para reforzar. Se nos dio un folleto con una
-								variedad de prácticas y siempre se nos ayudaba con cualquier duda que tuviéramos. Personalmente, me
-								ayudó muchísimo a entender cómo funcionaba el examen y a adaptarme a pensar de cierta manera.
+								“Durante el transcurso del curso me dieron muchísimos tips para hacer el examen con calma y seguridad.
+								Además, la preparación me pareció súper buena ya que me dio muchas prácticas y preguntas de examen que
+								me ayudaron a estar más preparada.”
 							</p>
 						</div>
 					</div>
@@ -279,7 +358,7 @@
 					<div class="card-user d-flex">
 						<div class="mb-3">
 							<div class="mb-3">
-								<h3 class="title mb-0">Javier Alfaro</h3>
+								<h3 class="title mb-0">Javier</h3>
 								<p class="title mb-0">UCR</p>
 								<h3 class="title mb-0">Excelente 💯</h3>
 							</div>
@@ -291,6 +370,66 @@
 								“Este curso me ayudó durante el examen ya que, a la hora de hacerlo, me acordé de los consejos que Karla
 								me dio y gracias a esto, logré sacar buena nota y entrar a la UCR. Sin duda alguna le recomendaría este
 								curso a cualquier persona…”
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="card mb-0">
+					<div class="card-user d-flex">
+						<div class="mb-3">
+							<div class="mb-3">
+								<h3 class="title mb-0">Alex</h3>
+								<p class="title mb-0">TEC</p>
+								<h3 class="title mb-0">¡Super recomendado! 😃</h3>
+							</div>
+						</div>
+					</div>
+					<div class="card-text">
+						<div class="card-p">
+							<p class="title mb-0">
+								“Muy práctico y útil, ya que para estos exámenes se necesita el desarrollo de una habilidad un poco más
+								analítica, además las clases son dinámicas, eso ayuda a poner más atención y empeño en las prácticas y
+								explicaciones.”
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="card mb-0">
+					<div class="card-user d-flex">
+						<div class="mb-3">
+							<div class="mb-3">
+								<h3 class="title mb-0">Maripaz</h3>
+								<p class="title mb-0">UCR</p>
+								<h3 class="title mb-0">¡Muchas gracias!🎉</h3>
+							</div>
+						</div>
+					</div>
+					<div class="card-text">
+						<div class="card-p">
+							<p class="title mb-0">
+								“Karla abarca todos los temas y todos los tipos de ejercicios que te puedan tocar para poder
+								resolverlos. Algo que me gustó mucho del curso es que es mucho más personalizado que los demás y ella
+								siempre se aseguró que todos entendiéramos y aclaráramos nuestras dudas.”
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="card mb-0">
+					<div class="card-user d-flex">
+						<div class="mb-3">
+							<div class="mb-3">
+								<h3 class="title mb-0">Nicole</h3>
+								<p class="title mb-0">TEC - UCR</p>
+								<h3 class="title mb-0">El mejor curso 💯</h3>
+							</div>
+						</div>
+					</div>
+					<div class="card-text">
+						<div class="card-p">
+							<p class="title mb-0">
+								“Topamos con este curso y fue lo mejor que me pudo haber pasado… los ejercicios eran muy parecidos a los
+								que aparecieron en el examen… gracias a este curso pude entrar a la carrera que deseaba en la
+								universidad que quería con más de 700 en el Tec y un 690 en el de la UCR.”
 							</p>
 						</div>
 					</div>
@@ -322,7 +461,7 @@
 									aria-labelledby="headingOne"
 									data-bs-parent="#accordionBasic"
 								>
-									<div class="accordion-body title">
+									<div class="accordion-body raleway">
 										No, nuestros cursos son 100% virtuales. En todos nuestros servicios usamos herramientas especiales
 										de educación virtual para fomentar la participación y atención.
 									</div>
@@ -347,9 +486,11 @@
 									aria-labelledby="headingTwo"
 									data-bs-parent="#accordionBasic"
 								>
-									<div class="accordion-body title">
-										La matrícula se oficializa con el pago del curso, puedes pagar por transferencia bancaria o SINPE
-										móvil. Contactanos para coordinar el ingreso al curso.
+									<div class="accordion-body raleway">
+										La matrícula se oficializa con el pago del curso, podés pagar por transferencia bancaria o SINPE
+										móvil. <br />
+										<br />
+										<u class="raleway">Contactanos</u> para coordinar el ingreso al curso.
 									</div>
 								</div>
 							</div>
@@ -372,10 +513,15 @@
 									aria-labelledby="headingThree"
 									data-bs-parent="#accordionBasic"
 								>
-									<div class="accordion-body title">
-										Curso exclusivo: grabamos todas nuestras clases y seminarios, podrás repasar cuantas veces querás
-										hasta que entrés a la U (2 años inclusive). Curso lite:100% sincrónico, el curso no se graba. Curso
-										pregabado: podés ver los videos cuantas veces querás hasta que entrés a la U (2 años inclusive).
+									<div class="accordion-body raleway">
+										<b class="raleway">Curso exclusivo:</b> grabamos todas nuestras clases y seminarios, podrás repasar
+										cuantas veces querás hasta que entrés a la U (2 años inclusive). <br />
+										<br />
+
+										<b class="raleway">Curso lite:</b> 100% sincrónico, el curso no se graba. <br />
+										<br />
+										<b class="raleway">Curso pregabado:</b> podés ver los videos cuantas veces querás hasta que entrés a
+										la U (2 años inclusive).
 									</div>
 								</div>
 							</div>
@@ -398,7 +544,7 @@
 									aria-labelledby="headingFour"
 									data-bs-parent="#accordionBasic"
 								>
-									<div class="accordion-body title">
+									<div class="accordion-body raleway">
 										Claro, sin importar la modalidad que escojás podrás hacer las consultas que necesités. Ya sea en el
 										grupo, whatsapp, clases en vivo o seminarios.
 									</div>
@@ -410,7 +556,7 @@
 			</div>
 
 			<div class="d-flex flex-column align-items-center text-center mb-5">
-				<h2 class="title-h1 mb-4">¿No sabes si learny es para vos?</h2>
+				<h2 class="title-h1 mb-4">¿No sabés si learny es para vos?</h2>
 				<h4 class="title mb-4">Probá una clase gratis!</h4>
 				<a href="https://api.whatsapp.com/send/?phone=50661956912&text&app_absent=0"
 					><button type="button" class="btn btn-default py-2">Escribime</button></a
@@ -428,40 +574,45 @@
 						<div class="col-4 col-md-4 d-flex flex-column flex-wrap align-items-center p-0">
 							<div>
 								<h3>Contacto</h3>
-								<div class="d-flex">
-									<img src="./img/icons/fb.png" alt="" width="20" height="20" class="me-2" />
-									<p>usuario</p>
-								</div>
-								<div class="d-flex">
+
+								<a class="d-flex contacto-redes" href="https://www.facebook.com/LearnyCR/"
+									><img src="./img/icons/fb.png" alt="" width="20" height="20" class="me-2" />
+									<p>LearnyCr</p></a
+								>
+
+								<a class="d-flex contacto-redes" href="https://www.instagram.com/learnycr/">
 									<img src="./img/icons/ig.png" alt="" width="20" height="20" class="me-2" />
-									<p>@usuario</p>
-								</div>
-								<div class="d-flex">
+									<p>@learnycr</p>
+								</a>
+								<a
+									class="d-flex contacto-redes"
+									href="https://api.whatsapp.com/send/?phone=50661956912&text&app_absent=0"
+								>
 									<img src="./img/icons/wp.png" alt="" width="20" height="20" class="me-2" />
-									<p>número</p>
-								</div>
+									<p>whatsapp</p>
+								</a>
 							</div>
 						</div>
 						<div class="col-4 col-md-4 d-flex flex-column flex-wrap align-items-center p-0">
 							<div>
 								<h3 class="text-center">Servicios</h3>
 								<div class="d-md-flex">
-									<div class="me-3">
+									<a class="me-3 contacto-redes" href="./pages/servicios.html">
 										<p>en vivo</p>
 										<p>pregrabado</p>
-									</div>
-									<div>
+									</a>
+									<a class="contacto-redes" href="./pages/servicios.html">
 										<p>Cursos Exclusivos</p>
 										<p>Tutorias INDIVIDUALES</p>
-									</div>
+									</a>
 								</div>
 							</div>
 						</div>
 						<div class="col-4 col-md-4 d-flex flex-column flex-wrap align-items-center p-0">
 							<div>
 								<h3>Sobre Learny</h3>
-								<p>preguntas frequentes</p>
-								<p>tu mentora</p>
+								<a href="#faq" class="contacto-redes"><p>preguntas frequentes</p></a>
+								<a href="#mentora" class="contacto-redes"><p>tu mentora</p></a>
 							</div>
 						</div>
 					</div>
